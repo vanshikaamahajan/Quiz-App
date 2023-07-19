@@ -67,7 +67,7 @@ button{
     border-color:white;
     background-color:rgb(194, 157, 227);
 }
-@media(max-width:400px){
+@media(max-width:450px){
     .heading{
         font-size:1.8rem;
     }
