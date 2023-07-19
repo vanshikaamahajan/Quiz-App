@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="css/custom.css">
+    <script src="js/app.js" defer></script>
+</head>
+<body>
+    <div class="heading">
+        <h1>Quiz Time</h1>
+    </div>
+    <div class="main">
+        <div id="container" required>
+            <h2 id="quesBox">Dummy question</h2>
+            <div class="row">
+                <input class="options" id="option1" type="radio" value="a" name="option"/>
+                <label for="option1"> Opiton a</label>
+                
+            </div>
+            <div class="row">
+                <input  class="options" id="option2" type="radio" value="b" name="option"/>
+                <label for="option2"> Opiton b</label>
+                
+            </div>
+            <div class="row">
+                <input  class="options" id="option3" type="radio" value="c" name="option"/>
+                <label for="option3"> Opiton a</label>
+                
+            </div>
+            <div class="row">
+                <input  class="options" id="option4" type="radio" value="d" name="option"/>
+                <label for="option4"> Opiton a</label>
+                
+            </div>
+            <div class="btn">
+                <button onclick="submitQuiz()">Next</button>
+            </div>
+           
+        </div>
+
+    </div>
+   
+</body>
+</html>
