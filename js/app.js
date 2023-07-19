@@ -110,7 +110,7 @@ const submitQuiz=()=>{
     }
 
 
-     document.querySelector('input[name="option"]:checked').checked = false;
+     
         
     const data=questions[index];
     const ans=getAnswer()
